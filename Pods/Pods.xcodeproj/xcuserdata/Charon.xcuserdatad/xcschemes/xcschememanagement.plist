@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CTMediator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TAGoodsDetail.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TAGoodsDetailTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TAGoodsDetailUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TAConfirmOrderBusinessCategory.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>01EBE125DBDE94510BDFACC878682D32</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>22F9F68A3B5FD01A31B7E2BCD4DE5EA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AEC82AB9297A0E8C5EC1236280731FBD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E860DBFDF4A7872F6049CBAEAA721AD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F80D561E8B2CB019BD226DA86CCBB272</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

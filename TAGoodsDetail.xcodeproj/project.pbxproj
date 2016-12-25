@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630F4B23866C9ECD643DF29B /* libPods-TAGoodsDetailUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FA4729C820B3E9C62F637A /* libPods-TAGoodsDetailUITests.a */; };
 		90C7B4FD1E0FBD990039B030 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B4FC1E0FBD990039B030 /* main.m */; };
 		90C7B5001E0FBD990039B030 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B4FF1E0FBD990039B030 /* AppDelegate.m */; };
 		90C7B5031E0FBD990039B030 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B5021E0FBD990039B030 /* ViewController.m */; };
@@ -15,6 +16,10 @@
 		90C7B50B1E0FBD990039B030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C7B5091E0FBD990039B030 /* LaunchScreen.storyboard */; };
 		90C7B5161E0FBD990039B030 /* TAGoodsDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B5151E0FBD990039B030 /* TAGoodsDetailTests.m */; };
 		90C7B5211E0FBD990039B030 /* TAGoodsDetailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B5201E0FBD990039B030 /* TAGoodsDetailUITests.m */; };
+		90C7B5311E0FBDFD0039B030 /* Target_TAGoodsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B5301E0FBDFD0039B030 /* Target_TAGoodsDetail.m */; };
+		90C7B53A1E0FC0040039B030 /* TAGoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B5391E0FC0040039B030 /* TAGoodsDetailViewController.m */; };
+		B96160CD3FA1446DB5424AD7 /* libPods-TAGoodsDetailTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8FD95FC7789DAD7059C0D3 /* libPods-TAGoodsDetailTests.a */; };
+		D3E7F00437776B2BE2071630 /* libPods-TAGoodsDetail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E421D63855D7CAF716C8C4 /* libPods-TAGoodsDetail.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AF8877E2584444A0D697D6E /* Pods-TAGoodsDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAGoodsDetail.release.xcconfig"; path = "Pods/Target Support Files/Pods-TAGoodsDetail/Pods-TAGoodsDetail.release.xcconfig"; sourceTree = "<group>"; };
+		57C9F7265DB42886112B3AC7 /* Pods-TAGoodsDetailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAGoodsDetailTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TAGoodsDetailTests/Pods-TAGoodsDetailTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F0C8B02F1A89CE8C2B16932 /* Pods-TAGoodsDetailUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAGoodsDetailUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TAGoodsDetailUITests/Pods-TAGoodsDetailUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F8FD95FC7789DAD7059C0D3 /* libPods-TAGoodsDetailTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TAGoodsDetailTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C7B4F81E0FBD990039B030 /* TAGoodsDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAGoodsDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C7B4FC1E0FBD990039B030 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90C7B4FE1E0FBD990039B030 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,15 @@
 		90C7B51C1E0FBD990039B030 /* TAGoodsDetailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAGoodsDetailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C7B5201E0FBD990039B030 /* TAGoodsDetailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAGoodsDetailUITests.m; sourceTree = "<group>"; };
 		90C7B5221E0FBD990039B030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C7B52F1E0FBDFD0039B030 /* Target_TAGoodsDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TAGoodsDetail.h; sourceTree = "<group>"; };
+		90C7B5301E0FBDFD0039B030 /* Target_TAGoodsDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TAGoodsDetail.m; sourceTree = "<group>"; };
+		90C7B5381E0FC0040039B030 /* TAGoodsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGoodsDetailViewController.h; sourceTree = "<group>"; };
+		90C7B5391E0FC0040039B030 /* TAGoodsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGoodsDetailViewController.m; sourceTree = "<group>"; };
+		987CA2539342A49E13B27EEE /* Pods-TAGoodsDetailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAGoodsDetailTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TAGoodsDetailTests/Pods-TAGoodsDetailTests.release.xcconfig"; sourceTree = "<group>"; };
+		A3FA4729C820B3E9C62F637A /* libPods-TAGoodsDetailUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TAGoodsDetailUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9322D11213FC155DFB2248 /* Pods-TAGoodsDetailUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAGoodsDetailUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TAGoodsDetailUITests/Pods-TAGoodsDetailUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1E421D63855D7CAF716C8C4 /* libPods-TAGoodsDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TAGoodsDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF283D25058D988A0124D552 /* Pods-TAGoodsDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAGoodsDetail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TAGoodsDetail/Pods-TAGoodsDetail.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E7F00437776B2BE2071630 /* libPods-TAGoodsDetail.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96160CD3FA1446DB5424AD7 /* libPods-TAGoodsDetailTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +92,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				630F4B23866C9ECD643DF29B /* libPods-TAGoodsDetailUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		511095D7326945FA35DB6943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1E421D63855D7CAF716C8C4 /* libPods-TAGoodsDetail.a */,
+				6F8FD95FC7789DAD7059C0D3 /* libPods-TAGoodsDetailTests.a */,
+				A3FA4729C820B3E9C62F637A /* libPods-TAGoodsDetailUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88FD13409B34334DAE549FF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF283D25058D988A0124D552 /* Pods-TAGoodsDetail.debug.xcconfig */,
+				2AF8877E2584444A0D697D6E /* Pods-TAGoodsDetail.release.xcconfig */,
+				57C9F7265DB42886112B3AC7 /* Pods-TAGoodsDetailTests.debug.xcconfig */,
+				987CA2539342A49E13B27EEE /* Pods-TAGoodsDetailTests.release.xcconfig */,
+				6F0C8B02F1A89CE8C2B16932 /* Pods-TAGoodsDetailUITests.debug.xcconfig */,
+				AB9322D11213FC155DFB2248 /* Pods-TAGoodsDetailUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		90C7B4EF1E0FBD990039B030 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				90C7B5141E0FBD990039B030 /* TAGoodsDetailTests */,
 				90C7B51F1E0FBD990039B030 /* TAGoodsDetailUITests */,
 				90C7B4F91E0FBD990039B030 /* Products */,
+				88FD13409B34334DAE549FF8 /* Pods */,
+				511095D7326945FA35DB6943 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +147,7 @@
 		90C7B4FA1E0FBD990039B030 /* TAGoodsDetail */ = {
 			isa = PBXGroup;
 			children = (
+				90C7B52E1E0FBDD30039B030 /* TAGoodsDetail */,
 				90C7B4FE1E0FBD990039B030 /* AppDelegate.h */,
 				90C7B4FF1E0FBD990039B030 /* AppDelegate.m */,
 				90C7B5011E0FBD990039B030 /* ViewController.h */,
@@ -140,6 +187,17 @@
 			path = TAGoodsDetailUITests;
 			sourceTree = "<group>";
 		};
+		90C7B52E1E0FBDD30039B030 /* TAGoodsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				90C7B52F1E0FBDFD0039B030 /* Target_TAGoodsDetail.h */,
+				90C7B5301E0FBDFD0039B030 /* Target_TAGoodsDetail.m */,
+				90C7B5381E0FC0040039B030 /* TAGoodsDetailViewController.h */,
+				90C7B5391E0FC0040039B030 /* TAGoodsDetailViewController.m */,
+			);
+			path = TAGoodsDetail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90C7B5251E0FBD990039B030 /* Build configuration list for PBXNativeTarget "TAGoodsDetail" */;
 			buildPhases = (
+				7EF0830CCC361BB6BAEA5C8B /* [CP] Check Pods Manifest.lock */,
 				90C7B4F41E0FBD990039B030 /* Sources */,
 				90C7B4F51E0FBD990039B030 /* Frameworks */,
 				90C7B4F61E0FBD990039B030 /* Resources */,
+				A89CE95459FB366995AFFBD1 /* [CP] Embed Pods Frameworks */,
+				337B53B34D989C745665868B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90C7B5281E0FBD990039B030 /* Build configuration list for PBXNativeTarget "TAGoodsDetailTests" */;
 			buildPhases = (
+				C33943E1A44BA48F7679BA4A /* [CP] Check Pods Manifest.lock */,
 				90C7B50D1E0FBD990039B030 /* Sources */,
 				90C7B50E1E0FBD990039B030 /* Frameworks */,
 				90C7B50F1E0FBD990039B030 /* Resources */,
+				9BE6E645C83B632D2D696D3B /* [CP] Embed Pods Frameworks */,
+				759244DD9D1CFE490E45B493 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90C7B52B1E0FBD990039B030 /* Build configuration list for PBXNativeTarget "TAGoodsDetailUITests" */;
 			buildPhases = (
+				B03FA843311B8F334568776F /* [CP] Check Pods Manifest.lock */,
 				90C7B5181E0FBD990039B030 /* Sources */,
 				90C7B5191E0FBD990039B030 /* Frameworks */,
 				90C7B51A1E0FBD990039B030 /* Resources */,
+				2F8FB811B5C67E0ACA3F12F0 /* [CP] Embed Pods Frameworks */,
+				055E8D9166CCB0085F65FE7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +335,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		055E8D9166CCB0085F65FE7C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TAGoodsDetailUITests/Pods-TAGoodsDetailUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F8FB811B5C67E0ACA3F12F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TAGoodsDetailUITests/Pods-TAGoodsDetailUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		337B53B34D989C745665868B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TAGoodsDetail/Pods-TAGoodsDetail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		759244DD9D1CFE490E45B493 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TAGoodsDetailTests/Pods-TAGoodsDetailTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EF0830CCC361BB6BAEA5C8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BE6E645C83B632D2D696D3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TAGoodsDetailTests/Pods-TAGoodsDetailTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A89CE95459FB366995AFFBD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TAGoodsDetail/Pods-TAGoodsDetail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B03FA843311B8F334568776F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C33943E1A44BA48F7679BA4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90C7B4F41E0FBD990039B030 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C7B53A1E0FC0040039B030 /* TAGoodsDetailViewController.m in Sources */,
 				90C7B5031E0FBD990039B030 /* ViewController.m in Sources */,
 				90C7B5001E0FBD990039B030 /* AppDelegate.m in Sources */,
 				90C7B4FD1E0FBD990039B030 /* main.m in Sources */,
+				90C7B5311E0FBDFD0039B030 /* Target_TAGoodsDetail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +627,7 @@
 		};
 		90C7B5261E0FBD990039B030 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF283D25058D988A0124D552 /* Pods-TAGoodsDetail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TAGoodsDetail/Info.plist;
@@ -431,6 +639,7 @@
 		};
 		90C7B5271E0FBD990039B030 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF8877E2584444A0D697D6E /* Pods-TAGoodsDetail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TAGoodsDetail/Info.plist;
@@ -442,6 +651,7 @@
 		};
 		90C7B5291E0FBD990039B030 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C9F7265DB42886112B3AC7 /* Pods-TAGoodsDetailTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TAGoodsDetailTests/Info.plist;
@@ -454,6 +664,7 @@
 		};
 		90C7B52A1E0FBD990039B030 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987CA2539342A49E13B27EEE /* Pods-TAGoodsDetailTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TAGoodsDetailTests/Info.plist;
@@ -466,6 +677,7 @@
 		};
 		90C7B52C1E0FBD990039B030 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0C8B02F1A89CE8C2B16932 /* Pods-TAGoodsDetailUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TAGoodsDetailUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -477,6 +689,7 @@
 		};
 		90C7B52D1E0FBD990039B030 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9322D11213FC155DFB2248 /* Pods-TAGoodsDetailUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = TAGoodsDetailUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

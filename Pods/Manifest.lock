@@ -1,0 +1,15 @@
+PODS:
+  - CTMediator (0.0.1)
+  - TAConfirmOrderBusinessCategory (0.0.1):
+    - CTMediator
+
+DEPENDENCIES:
+  - TAConfirmOrderBusinessCategory
+
+SPEC CHECKSUMS:
+  CTMediator: fcfaacc102b427e6b8943d1a6cd91cbfe193f5c6
+  TAConfirmOrderBusinessCategory: c1c5d5d1f0d84a8081909a8a9604100382b86771
+
+PODFILE CHECKSUM: 7280d71abd748af75c458d1bd1993bb31b90e90a
+
+COCOAPODS: 1.1.1
